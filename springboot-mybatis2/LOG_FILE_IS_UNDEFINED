@@ -1,0 +1,273 @@
+2019-07-17 11:18:01.124 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 30244 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:18:01.130 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:18:01.205 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15713d56: startup date [Wed Jul 17 11:18:01 CST 2019]; root of context hierarchy
+2019-07-17 11:18:03.995 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:18:04.015 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:18:04.040 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:18:04.040 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:18:04.106 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:18:04.317 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:18:04.318 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3113 ms
+2019-07-17 11:18:04.444 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:18:04.450 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:18:04.451 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:18:04.451 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:18:04.451 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:18:05.709 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:18:05.971 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15713d56: startup date [Wed Jul 17 11:18:01 CST 2019]; root of context hierarchy
+2019-07-17 11:18:06.073 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:18:06.080 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:18:06.081 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:18:06.124 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:18:06.125 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:18:06.449 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15713d56: startup date [Wed Jul 17 11:18:01 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:18:06.451 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:18:06.483 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:18:06.801 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:18:06.804 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:18:06.815 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:18:06.839 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:18:06.860 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:18:07.114 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:18:07.119 [main] INFO  cn.abel.Application.logStarted - Started Application in 7.039 seconds (JVM running for 9.178)
+2019-07-17 11:18:18.743 [http-nio-8009-exec-8] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-17 11:18:18.744 [http-nio-8009-exec-8] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-17 11:18:18.990 [http-nio-8009-exec-8] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 246 ms
+2019-07-17 11:18:19.067 [http-nio-8009-exec-8] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2019-07-17 11:18:19.418 [http-nio-8009-exec-8] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2019-07-17 11:18:31.635 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15713d56: startup date [Wed Jul 17 11:18:01 CST 2019]; root of context hierarchy
+2019-07-17 11:18:31.645 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:18:31.645 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+2019-07-17 11:18:31.645 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2019-07-17 11:18:31.684 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2019-07-17 11:18:38.106 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 33904 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:18:38.112 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:18:38.303 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd323e9: startup date [Wed Jul 17 11:18:38 CST 2019]; root of context hierarchy
+2019-07-17 11:18:41.746 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:18:41.769 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:18:41.788 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:18:41.789 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:18:41.811 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:18:41.969 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:18:41.970 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3667 ms
+2019-07-17 11:18:42.105 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:18:42.115 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:18:42.116 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:18:42.118 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:18:42.118 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:18:43.100 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:18:43.342 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd323e9: startup date [Wed Jul 17 11:18:38 CST 2019]; root of context hierarchy
+2019-07-17 11:18:43.440 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:18:43.446 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:18:43.448 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:18:43.488 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:18:43.489 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:18:43.845 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd323e9: startup date [Wed Jul 17 11:18:38 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:18:43.847 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:18:43.880 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:18:44.082 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:18:44.084 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:18:44.091 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:18:44.106 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:18:44.121 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:18:44.390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:18:44.396 [main] INFO  cn.abel.Application.logStarted - Started Application in 7.29 seconds (JVM running for 8.183)
+2019-07-17 11:18:56.038 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd323e9: startup date [Wed Jul 17 11:18:38 CST 2019]; root of context hierarchy
+2019-07-17 11:18:56.038 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:18:56.038 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+2019-07-17 11:19:01.089 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 33244 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:19:01.096 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:19:01.227 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Wed Jul 17 11:19:01 CST 2019]; root of context hierarchy
+2019-07-17 11:19:04.165 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:19:04.192 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:19:04.211 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:19:04.211 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:19:04.267 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:19:04.616 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:19:04.616 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3389 ms
+2019-07-17 11:19:04.718 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:19:04.725 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:19:04.726 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:19:04.726 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:19:04.726 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:19:05.429 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:19:06.277 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Wed Jul 17 11:19:01 CST 2019]; root of context hierarchy
+2019-07-17 11:19:06.377 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:19:06.384 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:19:06.385 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:19:06.426 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:19:06.427 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:19:06.808 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Wed Jul 17 11:19:01 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:19:06.810 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:19:06.841 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:19:07.044 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:19:07.046 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:19:07.052 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:19:07.066 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:19:07.080 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:19:07.115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:19:07.120 [main] INFO  cn.abel.Application.logStarted - Started Application in 6.928 seconds (JVM running for 7.826)
+2019-07-17 11:19:11.002 [http-nio-8009-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-17 11:19:11.003 [http-nio-8009-exec-7] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-17 11:19:11.079 [http-nio-8009-exec-7] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 76 ms
+2019-07-17 11:19:11.161 [http-nio-8009-exec-7] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2019-07-17 11:19:11.491 [http-nio-8009-exec-7] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2019-07-17 11:20:52.725 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12359a82: startup date [Wed Jul 17 11:19:01 CST 2019]; root of context hierarchy
+2019-07-17 11:20:52.725 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:20:52.725 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+2019-07-17 11:20:52.725 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2019-07-17 11:20:52.767 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2019-07-17 11:20:59.900 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 57632 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:20:59.907 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:21:00.016 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59cba5a: startup date [Wed Jul 17 11:21:00 CST 2019]; root of context hierarchy
+2019-07-17 11:21:03.311 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:21:03.339 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:21:03.357 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:21:03.358 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:21:03.384 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:21:03.775 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:21:03.776 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3760 ms
+2019-07-17 11:21:03.924 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:21:03.929 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:21:03.930 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:21:03.930 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:21:03.930 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:21:04.921 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:21:05.244 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59cba5a: startup date [Wed Jul 17 11:21:00 CST 2019]; root of context hierarchy
+2019-07-17 11:21:05.395 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:21:05.404 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:21:05.406 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:21:05.494 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:21:05.495 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:21:05.999 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59cba5a: startup date [Wed Jul 17 11:21:00 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:21:06.002 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:21:06.035 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:21:06.238 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:21:06.240 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:21:06.247 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:21:06.262 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:21:06.280 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:21:06.514 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:21:06.519 [main] INFO  cn.abel.Application.logStarted - Started Application in 7.444 seconds (JVM running for 8.383)
+2019-07-17 11:22:24.799 [http-nio-8009-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-17 11:22:24.799 [http-nio-8009-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-17 11:22:24.843 [http-nio-8009-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 43 ms
+2019-07-17 11:22:24.930 [http-nio-8009-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2019-07-17 11:22:25.247 [http-nio-8009-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2019-07-17 11:23:11.486 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59cba5a: startup date [Wed Jul 17 11:21:00 CST 2019]; root of context hierarchy
+2019-07-17 11:23:11.496 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:23:11.496 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+2019-07-17 11:23:11.496 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2019-07-17 11:23:11.506 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2019-07-17 11:23:16.989 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 63460 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:23:16.996 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:23:17.092 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@704deff2: startup date [Wed Jul 17 11:23:17 CST 2019]; root of context hierarchy
+2019-07-17 11:23:20.726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:23:20.754 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:23:20.774 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:23:20.775 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:23:20.793 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:23:21.252 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:23:21.252 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4160 ms
+2019-07-17 11:23:21.344 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:23:21.350 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:23:21.351 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:23:21.351 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:23:21.351 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:23:23.248 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:23:23.847 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@704deff2: startup date [Wed Jul 17 11:23:17 CST 2019]; root of context hierarchy
+2019-07-17 11:23:23.947 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:23:23.953 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:23:23.955 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:23:24.004 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:23:24.004 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:23:24.375 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@704deff2: startup date [Wed Jul 17 11:23:17 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:23:24.377 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:23:24.406 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:23:24.586 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:23:24.588 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:23:24.594 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:23:24.607 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:23:24.711 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:23:24.768 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:23:24.778 [main] INFO  cn.abel.Application.logStarted - Started Application in 8.512 seconds (JVM running for 9.296)
+2019-07-17 11:26:27.126 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@704deff2: startup date [Wed Jul 17 11:23:17 CST 2019]; root of context hierarchy
+2019-07-17 11:26:27.128 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:26:27.129 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+2019-07-17 11:26:31.277 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 66440 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:26:31.284 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:26:31.367 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@609bcfb6: startup date [Wed Jul 17 11:26:31 CST 2019]; root of context hierarchy
+2019-07-17 11:26:35.478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:26:35.510 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:26:35.549 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:26:35.549 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:26:35.582 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:26:35.983 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:26:35.983 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4616 ms
+2019-07-17 11:26:36.218 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:26:36.225 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:26:36.225 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:26:36.226 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:26:36.226 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:26:37.598 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:26:38.721 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@609bcfb6: startup date [Wed Jul 17 11:26:31 CST 2019]; root of context hierarchy
+2019-07-17 11:26:38.965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:26:38.972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:26:38.973 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:26:39.017 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:26:39.017 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:26:39.400 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@609bcfb6: startup date [Wed Jul 17 11:26:31 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:26:39.402 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:26:39.433 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:26:39.674 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:26:39.676 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:26:39.683 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:26:39.699 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:26:39.716 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:26:39.755 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:26:39.763 [main] INFO  cn.abel.Application.logStarted - Started Application in 9.222 seconds (JVM running for 10.067)
+2019-07-17 11:26:44.452 [http-nio-8009-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-07-17 11:26:44.453 [http-nio-8009-exec-3] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+2019-07-17 11:26:44.509 [http-nio-8009-exec-3] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2019-07-17 11:26:44.584 [http-nio-8009-exec-3] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+2019-07-17 11:26:44.911 [http-nio-8009-exec-3] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+2019-07-17 11:26:57.088 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@609bcfb6: startup date [Wed Jul 17 11:26:31 CST 2019]; root of context hierarchy
+2019-07-17 11:26:57.088 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:26:57.088 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
+2019-07-17 11:26:57.098 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+2019-07-17 11:26:57.128 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+2019-07-17 11:27:01.822 [main] INFO  cn.abel.Application.logStarting - Starting Application on SKY-20180121KYF with PID 79732 (C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2\target\classes started by Administrator in C:\Users\Administrator\Desktop\springBoot-master\springboot-mybatis2)
+2019-07-17 11:27:01.833 [main] INFO  cn.abel.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-07-17 11:27:01.929 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@341814d3: startup date [Wed Jul 17 11:27:01 CST 2019]; root of context hierarchy
+2019-07-17 11:27:05.718 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8009 (http)
+2019-07-17 11:27:05.746 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:27:05.765 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2019-07-17 11:27:05.765 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-07-17 11:27:05.871 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_192\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\新建文件夹 (2)\;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Program Files\Java\jdk1.8.0_192\jre\bin;c:\windows\system32;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+2019-07-17 11:27:06.104 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2019-07-17 11:27:06.105 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4177 ms
+2019-07-17 11:27:06.251 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.addRegistration - Servlet dispatcherServlet mapped to [/]
+2019-07-17 11:27:06.256 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-07-17 11:27:06.257 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-07-17 11:27:06.257 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-07-17 11:27:06.257 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+2019-07-17 11:27:06.909 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:27:07.196 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@341814d3: startup date [Wed Jul 17 11:27:01 CST 2019]; root of context hierarchy
+2019-07-17 11:27:07.308 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/count]}" onto public int cn.abel.controller.Controller.abc()
+2019-07-17 11:27:07.314 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-07-17 11:27:07.315 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-07-17 11:27:08.301 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:27:08.301 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-07-17 11:27:08.689 [main] INFO  o.s.u.f.SpringTemplateLoader.<init> - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@341814d3: startup date [Wed Jul 17 11:27:01 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-07-17 11:27:08.690 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer.postProcessTemplateLoaders - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-07-17 11:27:08.721 [main] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-07-17 11:27:08.932 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+2019-07-17 11:27:08.934 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.autodetect - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-07-17 11:27:08.942 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.registerBeanInstance - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-07-17 11:27:08.958 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8009"]
+2019-07-17 11:27:08.975 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+2019-07-17 11:27:09.389 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8009 (http) with context path ''
+2019-07-17 11:27:09.399 [main] INFO  cn.abel.Application.logStarted - Started Application in 8.515 seconds (JVM running for 9.675)
+2019-07-17 11:30:05.744 [Thread-3] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.doClose - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@341814d3: startup date [Wed Jul 17 11:27:01 CST 2019]; root of context hierarchy
+2019-07-17 11:30:05.751 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+2019-07-17 11:30:05.755 [Thread-3] INFO  o.s.j.e.a.AnnotationMBeanExporter.unregisterBeans - Unregistering JMX-exposed beans
